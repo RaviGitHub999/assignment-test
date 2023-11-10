@@ -1,0 +1,117 @@
+.profileImg {
+  height: 200px;
+  width: 200px;
+}
+
+#maprenderedContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 50%;
+  margin-bottom: 30px;
+  gap: 12px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#inputContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#mapMainContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#renderBtns {
+  display: flex;
+  gap: 20px;
+}
+
+#folderIcon {
+  height: 150px;
+  width: 150px;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.grid-item {
+  width: 30%;
+  height: 200px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.mapContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+#toggleButtonenable {
+  cursor: pointer;
+  background-color: green;
+  padding:5px 20px 5px 20px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 800;
+  
+}
+#toggleButtondisable {
+  cursor: pointer;
+  background-color: red;
+  padding:5px 20px 5px 20px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 800;
+}
+#photos {
+  width: 100%;
+  height: 200px;
+}
+.add-btnenable{
+  background-color:blue;
+  color: white;
+  padding: 5px 15px 5px 15px;
+}
+.add-btndisable{
+  background-color:yellow;
+  padding: 5px 15px 5px 15px;
+}
+.inp{
+  padding: 5px 15px 5px 15px;
+}
+.update-btn{
+  background-color: blue;
+  color: #fff;
+  padding: 5px 12px 5px 12px;
+  border-radius: 15px;
+}
+.delete-btn{
+  background-color:red;
+  color: #fff;
+  padding: 5px 12px 5px 12px;
+  border-radius: 15px;
+}

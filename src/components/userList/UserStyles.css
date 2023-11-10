@@ -1,0 +1,46 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+  align-items: center;
+}
+.popup {
+  border: 1px solid red;
+  position: fixed;
+  top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px 30px 20px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+#userNames {
+  margin-bottom: 20px;
+  align-self: center;
+  position: relative;
+}
+.App {
+  text-align: center;
+  background-color: "red";
+}
+#mapContainer {
+  margin-top: 150px;
+}
+#btn {
+  padding: 0px 20px 0px 20px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+}
+#popUpDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.title{
+  font-size:15px;
+  font-weight: 800;
+}
